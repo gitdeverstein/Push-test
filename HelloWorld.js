@@ -1,2 +1,8 @@
-console.log("Welcome in Github! I'm glad to meet you again.");
-console.log("This is a push test in GitHub with signed commit");
+var tableau = [3, 5, 8, 2, 9, 4, 1];
+
+var sommeIndex = 0;
+for (var i = 0; i < tableau.length; i++) {
+    sommeIndex += i;
+}
+
+console.log("La somme des index du tableau est : " + sommeIndex);
