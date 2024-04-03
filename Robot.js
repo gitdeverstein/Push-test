@@ -1,4 +1,3 @@
-// Fonction pour déplacer le robot
 function deplacerRobot(position, direction) {
     switch (direction) {
         case 'haut':
